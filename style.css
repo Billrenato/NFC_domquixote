@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-image: url('img/fundo.png');
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #4e4c48b4;
+    background: #cbc7c091;
     border-radius: 8px;
     text-decoration: none;
     border: none;
@@ -49,7 +49,7 @@ body {
   
   button:hover,
   a:hover {
-    background: #362e1eda;
+    background: #504e4bda;
   }
   
   footer {
