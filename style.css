@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-image: url('img/fundo2.jpeg');
+    background-image: url('img/fundo.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #494133b4;
+    background: #4e4c48b4;
     border-radius: 8px;
     text-decoration: none;
     border: none;
@@ -61,16 +61,17 @@ body {
 
   .precos {
     margin-top: 2rem;
-    background-image: url('img/preco2.jpeg');
+    
     background-size: cover;
     background-position: center;
     padding: 2rem;
     text-align: center;
     border-radius: 8px;
+
   }
   
   .preco-item {
-    background-color: #494133b4;
+    background-color: #4e4c48b4;
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 1rem;
@@ -85,8 +86,15 @@ body {
     color: bisque;
   }
   
-  .preco-item p {
-    font-size: 1.2rem;
-    color: #666;
-    color: bisque;
+  
+  .precos {
+    margin-top: 2rem;
+    
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+
   }
+  
