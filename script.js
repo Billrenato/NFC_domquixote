@@ -6,14 +6,28 @@ const fotos = [
   'img/foto4.jpeg',
   // Adicione mais fotos aqui
 ];
-let indice = 0;
 
-function mudarFoto() {
-  precosDiv.style.backgroundImage = `url(${fotos[indice]})`;
-  indice = (indice + 1) % fotos.length;
+if (precosDiv) {
+  let indice = 0;
+
+  // Carregar imagens
+  const imagens = [];
+  fotos.forEach((foto) => {
+    const img = new Image();
+    img.src = foto;
+    imagens.push(img);
+  });
+
+  function mudarFoto() {
+    precosDiv.style.backgroundImage = `url(${fotos[indice]})`;
+    indice = (indice + 1) % fotos.length;
+  }
+
+  // Define a primeira foto
+  precosDiv.style.backgroundImage = `url(${fotos[0]})`;
+
+  // Muda a foto a cada 2 segundos
+  setInterval(mudarFoto, 2000);
+} else {
+  console.error("Elemento não encontrado");
 }
-
-setInterval(mudarFoto, 2000); // Muda a foto a cada 3 segundos
-
-// Define a primeira foto
-precosDiv.style.backgroundImage = `url(${fotos[0]})`;
