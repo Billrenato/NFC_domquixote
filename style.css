@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url('img/fundo2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header {
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  button, a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #494133b4;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    height: 60px;
+    width: 60px;
+  }
+ 
+  
+  
+  button:hover,
+  a:hover {
+    background: #362e1eda;
+  }
+  
+  footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #777;
+  }
+
+
+  .precos {
+    margin-top: 2rem;
+    background-image: url('img/preco2.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .preco-item {
+    background-color: #494133b4;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2{
+    color: bisque;
+  }
+  .preco-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: bisque;
+  }
+  
+  .preco-item p {
+    font-size: 1.2rem;
+    color: #666;
+    color: bisque;
+  }

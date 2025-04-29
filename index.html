@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minha Loja</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+        <h1><img src="img/logo.png" alt="Minha Loja" style="width: 250px; height: 250px;"></h1>
+      </header>
+
+      <div class="info">
+        <button onclick="copyToClipboard('SenhaDoWiFi')">
+          <img src="img/wifi.png" style="width: 48px; height: 48px;">
+        </button>
+        <button onclick="copyToClipboard('pix@minhalojacom')">
+          <img src="img/pix2.png" style="width: 45px; height: 45px;">
+        </button>
+        <a href="https://wa.me/5599999999999" target="_blank">
+          <img src="img/whatsapp.png" style="width: 36px; height: 36px;">
+        </a>
+      </div>
+    <div class="precos">
+        
+        <div class="preco-item">
+          <h3>CABELO</h3>
+          <p>R$ 35,00</p>
+        </div>
+        <div class="preco-item">
+          <h3>BARBA</h3>
+          <p>R$ 35,00</p>
+        </div>
+      </div>
+
+    <footer>
+      <p>© 2025 Dom Quixote</p>
+    </footer>
+  </div>
+
+  <script>
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Copiado: " + text);
+      });
+    }
+  </script>
+</body>
+</html>
