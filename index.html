@@ -8,7 +8,7 @@
 </head>
 <body >
   
-   
+  
   <div class="container">
     <header>
         <h1><img src="img/logo.png" alt="Minha Loja" style="width: 330px; height: 300px;"></h1>
@@ -43,7 +43,43 @@
           No ano de 2016 surgia a barbearia mais exclusiva da cidade. Dom Quixote veio para desconstruir padrões e transformar vidas. Através de seu olhar humanizado, seu idealizador Zizu estará sempre preparado para melhorar seu visual e bater um ótimo papo! Desfrute dessa experiência e nos avalie no Google!</p>
       
     </div>
-      <div id="precos2"  style=" height: 200px;" class="precos"></div>
+    <div id="precos2" style="height: 200px;" class="precos"></div>
+
+    <script>
+      const precosDiv = document.getElementById('precos2');
+      const fotos = [
+        'img/foto1.jpeg',
+        'img/foto2.jpeg',
+        'img/foto3.jpeg',
+        'img/foto4.jpeg',
+        // Adicione mais fotos aqui
+      ];
+    
+      if (precosDiv) {
+        let indice = 0;
+    
+        // Carregar imagens
+        const imagens = [];
+        fotos.forEach((foto) => {
+          const img = new Image();
+          img.src = foto;
+          imagens.push(img);
+        });
+    
+        function mudarFoto() {
+          precosDiv.style.backgroundImage = `url(${fotos[indice]})`;
+          indice = (indice + 1) % fotos.length;
+        }
+    
+        // Define a primeira foto
+        precosDiv.style.backgroundImage = `url(${fotos[0]})`;
+    
+        // Muda a foto a cada 2 segundos
+        setInterval(mudarFoto, 2000);
+      } else {
+        console.error("Elemento não encontrado");
+      }
+    </script>
     
       
     
@@ -55,7 +91,7 @@
       <p>© 2025 Dom Quixote</p>
     </footer>
   </div>
-  <script src="script.js"></script>
+  
   <script>
     function copyToClipboard(text) {
       navigator.clipboard.writeText(text).then(() => {
