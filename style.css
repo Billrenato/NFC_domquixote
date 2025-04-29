@@ -99,4 +99,12 @@ body {
     border-radius: 8px;
 
   }
+  #precos2 {
+    height: 300px; /* ou mais, dependendo da proporção das imagens */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-top: 2rem;
+  }
   
