@@ -7,7 +7,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     
-    background-image: url('img/fundo2.jpeg');
+    background-image:  url('img/fundo3.jpeg');
     
   }
 
@@ -45,6 +45,7 @@ body {
     transition: background 0.3s;
     height: 60px;
     width: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
  
   
@@ -66,18 +67,20 @@ body {
     
     background-size: cover;
     background-position: center;
-    padding: 2rem;
+    
     text-align: center;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
   }
   
   .preco-item {
-    background-color: #4e4c48b4;
+    
+    background-color: #cbc7c075;
     padding: 1rem;
     border-radius: 8px;
-    margin-bottom: 1rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   h2{
     color: bisque;
@@ -94,7 +97,7 @@ body {
     
     background-size: cover;
     background-position: center;
-    padding: 2rem;
+    
     text-align: center;
     border-radius: 8px;
 
