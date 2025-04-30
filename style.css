@@ -37,7 +37,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffffff80;
+    background: #ffffff62;
     border-radius: 8px;
     text-decoration: none;
     border: none;
@@ -76,7 +76,7 @@ body {
   
   .preco-item {
     
-    background: #ffffff80;
+    background: #ffffff62;
     padding: 1rem;
     border-radius: 8px;
     
@@ -113,7 +113,7 @@ body {
 
   .tag-bazar {
     display: block;
-    background: #ffffff80;
+    background: #ffffff62;
     color: white;
     padding: 1rem;
     border-radius: 60px;
