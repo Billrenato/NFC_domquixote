@@ -37,7 +37,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #cbc7c091;
+    background: #ffffff80;
     border-radius: 8px;
     text-decoration: none;
     border: none;
@@ -76,7 +76,7 @@ body {
   
   .preco-item {
     
-    background-color: #cbc7c075;
+    background: #ffffff80;
     padding: 1rem;
     border-radius: 8px;
     
